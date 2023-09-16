@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "ESNext", // Change this line to "ESNext"
     "outDir": "./dist",
-    "strict": true
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "./types",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

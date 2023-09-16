@@ -9,6 +9,11 @@
   "author": "Justin Young",
   "license": "MIT",
   "devDependencies": {
+    "@types/uuid": "^9.0.4",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.2",
+    "uuid": "^9.0.1"
   }
 }
