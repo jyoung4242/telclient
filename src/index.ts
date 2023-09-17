@@ -62,7 +62,7 @@ export class TelClient {
     if (this.verbose) console.log(`Client connecting to ${this.port}`);
   }
 
-  create(serverport: number, verbose = false) {
+  static create(serverport: number, verbose = false) {
     return new TelClient({
       serverport,
       verbose,
